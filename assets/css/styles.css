@@ -1,10 +1,15 @@
+document {
+  position: relative;
+}
 .card-header {
   text-align: center;
+  font-size: x-large;
 }
 .form-check {
   text-align: center;
-  margin: 5px;
+  margin: 15px;
 }
 .card {
   width: 40%;
+  position: center;
 }
