@@ -5,11 +5,14 @@ document {
   text-align: center;
   font-size: x-large;
 }
-.form-check {
+.radio {
   text-align: center;
   margin: 15px;
 }
 .card {
   width: 40%;
   position: center;
+}
+.progress {
+  width: 40%;
 }

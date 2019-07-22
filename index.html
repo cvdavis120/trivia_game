@@ -20,33 +20,39 @@
         </div>
 
 
-        <h1 hidden> Trivia Game </h1>
+        <div class="progress timer" hidden>
+            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" aria-valuenow="0"
+                aria-valuemin="0" aria-valuemax="100">
+            </div>
+        </div>
         <div class="card border-success mb-3 game" hidden>
             <div class="card-header question">
                 This is the question
             </div>
             <ul class="list-group list-group-flush choices">
-                <div class="form-check choiceOne">
-                    <input class="form-check-input" type="radio" value="1" checked>
-                    <label class="form-check-label" for="exampleRadios1">
+                <div class="form-check choiceOne radio" value="0">
+                    <input class="form-check-input" name="myradio" type="radio" id="radio-1" value="0">
+                    <label class="form-check-label" for="exampleRadios1" id="choice-1">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus possimus quam culpa
                         cupiditate voluptates corrupti necessitatibus consectetur maiores adipisci explicabo?
                     </label>
                 </div>
-                <div class="form-check choiceTwo">
-                    <input class="form-check-input" type="radio" value="2">
-                    <label class="form-check-label" for="exampleRadios2">
+                <div class="form-check choiceTwo radio" value="1">
+                    <input class="form-check-input" name="myradio" type="radio" id="radio-2" value="1">
+                    <label class="form-check-label" for="exampleRadios2" id="choice-2">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem tenetur ducimus ipsum
                         delectus nostrum doloremque.
                     </label>
                 </div>
-                <div class="form-check choiceThree">
-                    <input class="form-check-input" type="radio" value="3">
-                    <label class="form-check-label" for="exampleRadios3">
+                <div class="form-check choiceThree radio" value="2">
+                    <input class="form-check-input" name="myradio" type="radio" id="radio-3" value="2">
+                    <label class="form-check-label" for="exampleRadios3" id="choice-3">
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque fugiat reiciendis recusandae
                         quos corrupti modi?
                     </label>
                 </div>
+
+
                 <button type="submit" class="btn btn-primary submit">Submit</button>
             </ul>
         </div>
