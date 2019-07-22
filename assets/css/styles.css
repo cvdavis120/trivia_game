@@ -16,3 +16,6 @@ document {
 .progress {
   width: 40%;
 }
+h1 {
+  color: blue;
+}

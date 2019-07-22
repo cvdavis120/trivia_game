@@ -13,17 +13,17 @@ $("document").ready(function() {
   const questionArray = [
     "What is the collective name for a group of lions",
     "What kind of creature is a Portuguese man o' war?",
-    "this is question 3",
-    "this is question 4",
-    "this is qutions 5"
+    "What type of animal is a Flemish giant?",
+    "How many arms do most starfish have?",
+    "Which adjective is used to describe a horse with two different colored patches, usually black and white?"
   ];
 
   const bigArrayofChoices = [
     ["A Squad", "A Pride", "A Pack"],
     ["A Dog", "A Crab", "A Jellyfish"],
-    ["g", "h", "i"],
-    ["j", "k", "l"],
-    ["m", "n", "o"]
+    ["A Rabbit", "A Bird", "A Squid"],
+    ["6", "5", "4"],
+    ["Gossamer", "Cow", "Piebald."]
   ];
 
   const answerArray = ["1", "2", "0", "1", "2"];
